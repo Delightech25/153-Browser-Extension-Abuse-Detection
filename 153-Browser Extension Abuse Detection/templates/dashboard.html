@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <h2>Welcome {{ user }}</h2>
+    
+    <h3>Select Permissions</h3>
+
+    <form method="POST" action="/analyze">
+
+        <div style="height:400px; overflow-y:scroll; background:#111; padding:10px;">
+            {% for feature in feature_names %}
+                <input type="checkbox" name="{{ feature }}" value="1"> {{ feature }} <br>
+            {% endfor %}
+        </div>
+
+        <button type="submit">Analyze Extension</button>
+    </form>
+
+    <div class="logout">
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+
+</body>
+</html>

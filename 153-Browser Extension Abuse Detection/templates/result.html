@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <h2>Detection Result</h2>
+
+    {% if result == "Safe Extension" %}
+        <p class="result-safe">{{ result }}</p>
+    {% else %}
+        <p class="result-malicious">{{ result }}</p>
+    {% endif %}
+
+    <h3>Prediction Confidence: {{ confidence }}%</h3>
+    <h3>Model Accuracy: {{ accuracy }}%</h3>
+
+    <hr>
+
+    <h3>Confusion Matrix</h3>
+    <img src="{{ url_for('static', filename='confusion_matrix.png') }}" width="400">
+
+    <h3>Dataset Class Distribution</h3>
+    <img src="{{ url_for('static', filename='class_distribution.png') }}" width="400">
+
+    <br><br>
+    <a href="/dashboard">Analyze Another Extension</a>
+
+</div>
+
+</body>
+</html>

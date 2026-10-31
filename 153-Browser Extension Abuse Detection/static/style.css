@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+    background: #334155;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard-container {
+    width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.result-safe {
+    color: #22c55e;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.result-malicious {
+    color: #ef4444;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}

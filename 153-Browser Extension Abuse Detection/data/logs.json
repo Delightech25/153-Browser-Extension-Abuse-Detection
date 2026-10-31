@@ -1,0 +1,94 @@
+[
+    {
+        "user": "abc",
+        "permissions": 5,
+        "external_requests": 5,
+        "background_scripts": 5,
+        "rating": 3.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 5,
+        "external_requests": 3,
+        "background_scripts": 2,
+        "rating": 4.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 5,
+        "external_requests": 3,
+        "background_scripts": 2,
+        "rating": 4.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 5,
+        "external_requests": 3,
+        "background_scripts": 2,
+        "rating": 4.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 5,
+        "external_requests": 3,
+        "background_scripts": 2,
+        "rating": 4.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 15,
+        "external_requests": 20,
+        "background_scripts": 10,
+        "rating": 2.0,
+        "result": "Malicious Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 10,
+        "external_requests": 8,
+        "background_scripts": 8,
+        "rating": 3.0,
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 10,
+        "external_requests": 10,
+        "background_scripts": 10,
+        "rating": 1.0,
+        "result": "Malicious Extension"
+    },
+    {
+        "user": "xyz",
+        "permissions": 10,
+        "external_requests": 10,
+        "background_scripts": 10,
+        "rating": 1.0,
+        "result": "Malicious Extension"
+    },
+    {
+        "user": "xyz",
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "result": "Safe Extension"
+    },
+    {
+        "user": "xyz",
+        "result": "Safe Extension"
+    }
+]
